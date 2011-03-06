@@ -18,3 +18,10 @@ Install by following these steps:
   * Register at https://github.com/
   * Download ...
   * ....
+
+= Tutorials =
+
+Some git tutorials can be found at:
+  * http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html
+  * http://gnuradio.org/redmine/wiki/gnuradio/DevelopingWithGit
+  * http://blog.xkoder.com/2008/08/13/git-tutorial-starting-with-git-using-just-10-commands/
