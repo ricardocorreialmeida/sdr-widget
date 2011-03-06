@@ -19,7 +19,7 @@ Install by following these steps:
   * Download ...
   * ...
 
-On Cygwin, search for "git" packages, install them and follow these steps to get started:
+On Cygwin, search for "git" packages in setup.exe and install them. With apt run "apt-get install xxx". For both, with the command line you can follow these steps to get started:
 
   * Make a local directory for your copy of the repository, here: "github". 
   * cd github
