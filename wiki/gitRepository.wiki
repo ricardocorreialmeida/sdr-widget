@@ -15,5 +15,6 @@ The git repository is located at https://github.com/amontefusco/sdr-widget
 With AVR32studio installed, add the git plugin from ...
 Install by following these steps:
 
+  * Register at https://github.com/
   * Download
   * ....
