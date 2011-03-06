@@ -17,13 +17,22 @@ Install by following these steps:
 
   * Register at https://github.com/
   * Download ...
-  * ....
+  * ...
 
 On Cygwin, search for "git" packages, install them and follow these steps to get started:
 
   * Make a local directory for your copy of the repository, here: "github". 
   * cd github
   * git clone git://github.com/amontefusco/sdr-widget.git
+  * ...
+  Or execute this sequence to fill the directory "test":
+  * cd ..
+  * mkdir test
+  * cd test
+  * git init
+  * git remote add sdr-widget git://github.com/amontefusco/sdr-widget.git
+  * git fetch sdr-widget
+  * And through some magic we might switch to the sdr-widget-2 branch...
 
 = Tutorials =
 
