@@ -1,0 +1,18 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+There exists a git repository for the firmware code in this project
+
+
+= Site =
+
+The git repository is located at https://github.com/amontefusco/sdr-widget
+
+= Installation =
+
+With AVR32studio installed, add the git plugin from ...
+Install by following these steps:
+
+  * Download
+  * ....
