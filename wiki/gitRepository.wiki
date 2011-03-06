@@ -24,15 +24,12 @@ On Cygwin, search for "git" packages in setup.exe and install them. On a Linux s
   * Make a local directory for your copy of the repository, here: "github". 
   * cd github
   * git clone git://github.com/amontefusco/sdr-widget.git
+  * cd sdr-widget
+  * git checkout sdr-widget-2 (Change branch)
+  * git branch sdr-widget-2-local (Create local branch)
+  * git checkout sdr-widget-2-local (Switch to local branch)
+  * At this stage you can import github/sdr-widget into AVR32studio
   * ...
-  Or execute this sequence to fill the directory "test":
-  * cd ..
-  * mkdir test
-  * cd test
-  * git init
-  * git remote add sdr-widget git://github.com/amontefusco/sdr-widget.git
-  * git fetch sdr-widget
-  * And through some magic we might switch to the sdr-widget-2 branch...
 
 = Tutorials =
 
