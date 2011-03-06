@@ -34,6 +34,7 @@ On Cygwin, search for "git" packages in setup.exe and install them. On a Linux s
 = Tutorials =
 
 Some git tutorials can be found at:
+  * http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
   * http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html
   * http://gnuradio.org/redmine/wiki/gnuradio/DevelopingWithGit
   * http://blog.xkoder.com/2008/08/13/git-tutorial-starting-with-git-using-just-10-commands/
