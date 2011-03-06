@@ -10,12 +10,11 @@ There exists a git repository for the firmware code in this project. This page i
 
 The git repository is located at https://github.com/amontefusco/sdr-widget
 
-= Installation =
+= Getting Started =
 
 You may install an Eclipse plugin which works with AVR32studio. With AVR32studio installed, add the git plugin from ...
 Install by following these steps:
 
-  * Register at https://github.com/
   * Download ...
   * ...
 
@@ -31,9 +30,22 @@ On Cygwin, search for "git" packages in setup.exe and install them. On a Linux s
   * At this stage you can import github/sdr-widget into AVR32studio
   * ...
 
-= Tutorials =
+= Reading and Writing =
 
-Some git tutorials can be found at:
+Downloading data from the git repository is called "checkout" while uploading data is called "commit". Checkouts can be done anonymously, but commits require user priviledges. 
+
+  * Register at https://github.com/
+  * Request priviledges from Andrea...
+
+Se above section for your initial checkout. 
+
+To commit modified code, you should:
+
+  * ...
+
+= git Documentation =
+
+Some git documentation can be found at:
   * http://www.kernel.org/pub/software/scm/git/docs/user-manual.html
   * http://www.kernel.org/pub/software/scm/git/docs/gittutorial.html
   * http://gnuradio.org/redmine/wiki/gnuradio/DevelopingWithGit
