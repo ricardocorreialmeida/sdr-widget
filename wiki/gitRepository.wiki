@@ -3,7 +3,7 @@
 
 = Introduction =
 
-There exists a git repository for the firmware code in this project
+There exists a git repository for the firmware code in this project. This page is under construction!
 
 
 = Site =
@@ -12,12 +12,18 @@ The git repository is located at https://github.com/amontefusco/sdr-widget
 
 = Installation =
 
-With AVR32studio installed, add the git plugin from ...
+You may install an Eclipse plugin which works with AVR32studio. With AVR32studio installed, add the git plugin from ...
 Install by following these steps:
 
   * Register at https://github.com/
   * Download ...
   * ....
+
+On Cygwin, search for "git" packages, install them and follow these steps to get started:
+
+  * Make a local directory for your copy of the repository, here: "github". 
+  * cd github
+  * git clone git://github.com/amontefusco/sdr-widget.git
 
 = Tutorials =
 
