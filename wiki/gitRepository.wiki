@@ -29,6 +29,21 @@ On Cygwin, search for "git" packages in setup.exe and install them. On a Linux s
   * git checkout sdr-widget-2-local (Switch to local branch)
   * At this stage you can import github/sdr-widget into AVR32studio
   * ...
+The latest from Roger:
+
+  * clone the github repository
+    git clone git://github.com/amontefusco/sdr-widget.git
+  * change directory into the clone, so git knows what you're talking about
+    cd sdr-widget
+  * tell git to grab all the branches and tags
+    git fetch origin
+  * checkout the sdr-widget-2 branch
+    git checkout sdr-widget-2
+  * set an environment variable to locate your avr32-gcc
+    export AVR32BIN=where-ever-it-is
+  * make Release/widget.elf and ./widget-control
+    make
+
 
 = Reading and Writing =
 
