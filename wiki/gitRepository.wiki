@@ -57,6 +57,7 @@ See above section for your initial checkout.
 To create local branch from sdr-widget-2: 
 
 *git checkout sdr-widget-2
+
  
 *git branch sdr-widget-local 
 
