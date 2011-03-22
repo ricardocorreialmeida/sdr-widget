@@ -68,6 +68,7 @@ If u mess everything up in local, u can delete the branch completely:
 You can update the latest sdr-widget-2: 
 
 *git checkout sdr-widget-2
+
  
 *git pull 
 
