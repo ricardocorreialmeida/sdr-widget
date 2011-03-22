@@ -52,34 +52,36 @@ Downloading data from the git repository is called "checkout" while uploading da
   * Register at https://github.com/
   * Request priviledges from Andrea...
 
-Se above section for your initial checkout.
+See above section for your initial checkout.
 
 To create local branch from sdr-widget-2: 
 
-$ git checkout sdr-widget-2 
-$ git branch sdr-widget-local 
+*git checkout sdr-widget-2 
+*git branch sdr-widget-local 
 
 If u mess everything up in local, u can delete the branch completely: 
 
-$ git branch -D sdr-widget-local 
+*git branch -D sdr-widget-local 
 
-U can update the latest sdr-widget-2: 
+*can update the latest sdr-widget-2: 
 
-$ git checkout sdr-widget-2 
-$ git pull 
+*git checkout sdr-widget-2 
+*git pull 
 
 To incorporate the latest pull into your local: 
 
-$ git checkout sdr-widget-local 
-$ git merge sdr-widget-2 
+*git checkout sdr-widget-local 
+*git merge sdr-widget-2 
 
 Conversely, to incorporate your local changes into sdr-widget-2: 
-$ git checkout sdr-widget-2 
-$ git merge sdr-widget-local 
+
+*git checkout sdr-widget-2 
+*git merge sdr-widget-local 
 
 After that, u can (with write permission) push your changes to the 
 github: 
-$ git push 
+
+*git push 
 
 If u are not sure, u can use the git email instructions to email your 
 changes as patch files for developers with write access to do the 
