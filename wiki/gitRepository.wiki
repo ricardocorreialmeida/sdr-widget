@@ -56,26 +56,30 @@ See above section for your initial checkout.
 
 To create local branch from sdr-widget-2: 
 
-*git checkout sdr-widget-2 
+*git checkout sdr-widget-2
+ 
 *git branch sdr-widget-local 
 
 If u mess everything up in local, u can delete the branch completely: 
 
 *git branch -D sdr-widget-local 
 
-*can update the latest sdr-widget-2: 
+You can update the latest sdr-widget-2: 
 
-*git checkout sdr-widget-2 
+*git checkout sdr-widget-2
+ 
 *git pull 
 
 To incorporate the latest pull into your local: 
 
 *git checkout sdr-widget-local 
+
 *git merge sdr-widget-2 
 
 Conversely, to incorporate your local changes into sdr-widget-2: 
 
 *git checkout sdr-widget-2 
+
 *git merge sdr-widget-local 
 
 After that, u can (with write permission) push your changes to the 
