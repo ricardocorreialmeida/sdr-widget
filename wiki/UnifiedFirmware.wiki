@@ -9,29 +9,33 @@ Andrea, Loftur etc., the Unified firmware is now working quite well,
 and I encourage all widget users to start flashing the Unified
 firmware instead of the earlier individual firmware versions.
 
-The source code of the Unified firmware is in a git repository. See the [gitRepository wiki page].
+The source code of the Unified firmware is in a git repository. See the [gitRepository git repository wiki page].
 
-There are two main branches that has active development:
+There are two main branches that have active development:
 
-sdr-widget-2           for sdr-widget
-sdr-widget-2-dib      for audio-widget        (also works for sdr-
-widget.  just additional features for audio-widget boards)
+  * sdr-widget-2 for sdr-widget
+  * sdr-widget-2-dib for audio-widget (also works for sdr-widget.  just additional features for audio-widget boards)
 
-I will upload .hex files built from the above two branches to the code
-page periodically.  The latest .hex files are called:
+Alex will upload .hex files built from the above two branches to the code page periodically.  The latest .hex files are called:
 
-widget.hex             built from sdr-widget-2
-audio-widget.hex    built from sdr-widget-2-dib
+  * widget.hex built from sdr-widget-2
+  * audio-widget.hex built from sdr-widget-2-dib
 
 
+= Prerequisites =
+You will have to install Python26 with some add-ons. You will have to install python26, wxpython, pyusb and pythoncard. For Windows, use 32-bit packages. Install files are presently found at:
+  * http://www.python.org/download/releases/2.6.6/
+  * http://www.wxpython.org/download.php
+  * http://bleyer.org/pyusb/
+  * Windows: Get PythonCard-0.8.2.win32.exe from http://pythoncard.sourceforge.net/windows_installation.html 
+  * Linux (untested): http://pythoncard.sourceforge.net/linux_installation.html
 
-= Details =
+
+= Configuration =
 
 After flashing the firmware, you need to use the WidgetControl.py GUI
 tool to setup the feature selections.  The GUI tool works under both
-Windows and Linux, but you will have to install python26, pyusb,
-pythoncard and wxpython (all available from public download.  Use
-Google to find them).  The default feature set is for sdr-widget
+Windows and Linux. The default feature set is for sdr-widget
 board, UAC1 audio, normal IQ orientations, AK5394A and CS4344 chips.
 This will work in all Operating Systems including Windows.
 
@@ -39,13 +43,3 @@ Note:  if you are running under Windows do NOT select UAC2 features,
 as Windows does not support UAC2.
 
 The equivalent of demo_UAC1_x_v087_WinXP is the uac1_dg8saq image.
-
-73  Alex
-
-
-
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
