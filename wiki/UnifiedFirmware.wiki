@@ -9,9 +9,7 @@ Andrea, Loftur etc., the Unified firmware is now working quite well,
 and I encourage all widget users to start flashing the Unified
 firmware instead of the earlier individual firmware versions.
 
-The source code of the Unified firmware is in a git repository. See http://code.google.com/p/sdr-widget/wiki/gitRepository
-
-git://github.com/amontefusco/sdr-widget.git
+The source code of the Unified firmware is in a git repository. See the gitRepository gitRepository wiki page.
 
 There are two main branches that has active development:
 
