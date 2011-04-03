@@ -1,0 +1,14 @@
+#summary Tips and tricks to make things work on Win7 / 64
+
+= Introduction =
+
+This page is a work in progress. Please copy your Win7 hints here.
+
+
+= Details =
+
+First of all: Clean up old drivers!
+
+To make Atmel Flip work with a signed driver, fetch one at 
+http://www.avrfreaks.net/index.php?module=Freaks%20Files&func=viewFile&id=3842&showinfo=1
+For the remainder of this text, it is assumed that downloading and unzipping it creates the folder "C:\Program Files (x86)\Atmel\Flip 3.4.2\usb\driver"
