@@ -7,7 +7,8 @@ This page is a work in progress. Please copy your Win7 hints here.
 
 = Details =
 
-First of all: Clean up old drivers!
+First of all: Clean up old drivers! 
+Loftur recommends this link: http://www.tech-recipes.com/rx/504/how-to-uninstall-hidden-devices-drivers-and-services/
 
 To make Atmel Flip work with a signed driver, fetch one at 
 http://www.avrfreaks.net/index.php?module=Freaks%20Files&func=viewFile&id=3842&showinfo=1
