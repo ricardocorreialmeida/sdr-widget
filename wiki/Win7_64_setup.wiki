@@ -21,3 +21,11 @@ http://www.avrfreaks.net/index.php?module=Freaks%20Files&func=viewFile&id=3842&s
 For the remainder of this text, it is assumed that downloading and unzipping it creates the folder "C:\Program Files (x86)\Atmel\Flip 3.4.2\usb\driver"
 
 After you install the signed driver, unplug the board and plug it back in with the program button pushed down. Keep an eye open in Device Manager to check if it enumerates.
+
+= WidgetControl =
+
+Go to the Downloads section and get your copy of WidgetControl_setup.exe. In order to make it work after installation, you also need the driver from http://home.ict.nl/~fredkrom/pe0fko/ca/X/ Install it manually by running hdwwiz from cmd, then point to the folder you unzip it to. 
+
+I'm not quite there yet, Widget Control says DG8SAQ/MOBO device not found.
+
+
