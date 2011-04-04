@@ -5,10 +5,16 @@
 This page is a work in progress. Please copy your Win7 hints here.
 
 
-= Details =
+= Cleanup! =
 
 First of all: Clean up old drivers! 
 Loftur recommends this link: http://www.tech-recipes.com/rx/504/how-to-uninstall-hidden-devices-drivers-and-services/
+
+= Atmel Flip =
+
+Atmel Flip is found at http://www.atmel.com/dyn/products/tools_card.asp?tool_id=3886
+
+Go ahead and install it as usual. You must read and understand http://www.atmel.com/dyn/resources/prod_documents/doc7745.pdf But the USB driver must be replaced by a signed driver.
 
 To make Atmel Flip work with a signed driver, fetch one at 
 http://www.avrfreaks.net/index.php?module=Freaks%20Files&func=viewFile&id=3842&showinfo=1
