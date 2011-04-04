@@ -20,4 +20,4 @@ To make Atmel Flip work with a signed driver, fetch one at
 http://www.avrfreaks.net/index.php?module=Freaks%20Files&func=viewFile&id=3842&showinfo=1
 For the remainder of this text, it is assumed that downloading and unzipping it creates the folder "C:\Program Files (x86)\Atmel\Flip 3.4.2\usb\driver"
 
-After you install the signed driver, unplug the board and plug it back in with the program button pushed down. 
+After you install the signed driver, unplug the board and plug it back in with the program button pushed down. Keep an eye open in Device Manager to check if it enumerates.
