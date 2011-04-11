@@ -23,10 +23,10 @@ Alex will upload .hex files built from the above two branches to the code page p
 
 
 = Prerequisites =
-You will have to install Python26 with some add-ons. You will have to install python26, wxpython, pyusb and pythoncard. For Windows, use 32-bit packages. Install files are presently found at:
+You will have to install Python26 with some add-ons. You will have to install python26, wxpython, pyusb (pre 1.0) and pythoncard. For Windows, use 32-bit packages. Install files are presently found at:
   * http://www.python.org/download/releases/2.6.6/
   * http://www.wxpython.org/download.php
-  * http://bleyer.org/pyusb/
+  * http://sourceforge.net/projects/pyusb/files/PyUSB%200.x/
   * Windows: Get PythonCard-0.8.2.win32.exe from http://pythoncard.sourceforge.net/windows_installation.html 
   * Linux (untested): http://pythoncard.sourceforge.net/linux_installation.html
 
