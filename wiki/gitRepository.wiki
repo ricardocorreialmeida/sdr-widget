@@ -24,9 +24,9 @@ On Cygwin, search for "git" packages in setup.exe and install them. On a Linux s
   * cd github
   * git clone git://github.com/amontefusco/sdr-widget.git
   * cd sdr-widget
-  * git checkout sdr-widget-2 (Change branch)
-  * git branch sdr-widget-2-local (Create local branch)
-  * git checkout sdr-widget-2-local (Switch to local branch)
+  * git checkout master (Change branch)
+  * git branch sdr-widget-local (Create local branch)
+  * git checkout sdr-widget-local (Switch to local branch)
   * At this stage you can import github/sdr-widget into AVR32studio. Don't forget to change the target to Release.
   * ...
 The latest from Roger:
@@ -37,8 +37,8 @@ The latest from Roger:
     cd sdr-widget
   * tell git to grab all the branches and tags
     git fetch origin
-  * checkout the sdr-widget-2 branch
-    git checkout sdr-widget-2
+  * checkout the master branch
+    git checkout master
   * set an environment variable to locate your avr32-gcc
     export AVR32BIN=where-ever-it-is
   * make Release/widget.elf and ./widget-control
@@ -54,9 +54,9 @@ Downloading data from the git repository is called "checkout" while uploading da
 
 See above section for your initial checkout.
 
-To create local branch from sdr-widget-2: 
+To create local branch from master: 
 
-*git checkout sdr-widget-2
+*git checkout master
 
  
 *git branch sdr-widget-local 
@@ -67,7 +67,7 @@ If u mess everything up in local, u can delete the branch completely:
 
 You can update the latest sdr-widget-2: 
 
-*git checkout sdr-widget-2
+*git checkout master
 
  
 *git pull 
@@ -76,11 +76,11 @@ To incorporate the latest pull into your local:
 
 *git checkout sdr-widget-local 
 
-*git merge sdr-widget-2 
+*git merge master 
 
 Conversely, to incorporate your local changes into sdr-widget-2: 
 
-*git checkout sdr-widget-2 
+*git checkout master 
 
 *git merge sdr-widget-local 
 
