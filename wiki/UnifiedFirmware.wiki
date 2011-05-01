@@ -13,13 +13,13 @@ The source code of the Unified firmware is in a git repository. See the [gitRepo
 
 There are two main branches that have active development:
 
-  * sdr-widget-2 for sdr-widget
-  * sdr-widget-2-dib for audio-widget (also works for sdr-widget.  just additional features for audio-widget boards)
+  * master for sdr-widget
+  * audio-widget for audio-widget (also works for sdr-widget.  just additional features for audio-widget boards)
 
-Alex will upload .hex files built from the above two branches to the code page periodically.  The latest .hex files are called:
+Alex will upload .elf files built from the above two branches to the code page periodically.  The latest .elf files are called:
 
-  * widget.hex built from sdr-widget-2
-  * audio-widget.hex built from sdr-widget-2-dib
+  * widget.elf built from master
+  * audio-widget.elf built from audio-widget
 
 
 = Prerequisites =
