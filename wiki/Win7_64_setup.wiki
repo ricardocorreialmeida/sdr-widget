@@ -10,6 +10,10 @@ This page is a work in progress. Please copy your Win7 hints here.
 First of all: Clean up old drivers! 
 Loftur recommends this link: http://www.tech-recipes.com/rx/504/how-to-uninstall-hidden-devices-drivers-and-services/
 
+= Select Playback Device =
+
+It might seem totally mundane, but don't forget to right-click on the little bottom-right loudspeaker icon and actively select playback device. Frequently, the most recently added audio device takes over, but not always.
+
 = Atmel Flip =
 
 Atmel Flip is found at http://www.atmel.com/dyn/products/tools_card.asp?tool_id=3886
