@@ -115,7 +115,7 @@ git config --global github.password "yourpassword"
 Not sure if this step is needed:
 Go to www.github.com -> Login -> Account Settings (top right) 
   -> Account Admin (left) -> API Token
-git config --global github.token ded42c2eccfded50316d9e037749f911token
+git config --global github.token 123123123123123token
 
 Now you can start accessing code if you intend to push your changes back!
 
