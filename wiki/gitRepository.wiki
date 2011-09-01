@@ -93,6 +93,49 @@ If u are not sure, u can use the git email instructions to email your
 changes as patch files for developers with write access to do the 
 merge and push for u. 
 
+= More details =
+
+Not yet fully edited. You'll have to go through these steps before your code goes into the shared online repository. 
+
+
+
+See details at http://help.github.com/win-set-up-git/
+then:
+ssh-keygen -t rsa -C "your@mail.address.com"
+
+Go to www.github.com -> Login -> Account Settings (top right)
+  -> SSH Public Keys -> Add another... -> Paste in id_rsa.pub
+
+git config --global user.name "Borge Strand-Bergesen"
+git config --global user.email "your@mail.address.com"
+git config --global user.password "yourpassword"
+git config --global github.user "yourusername"
+git config --global github.password "yourpassword"
+
+Not sure if this step is needed:
+Go to www.github.com -> Login -> Account Settings (top right) 
+  -> Account Admin (left) -> API Token
+git config --global github.token ded42c2eccfded50316d9e037749f911token
+
+Now you can start accessing code if you intend to push your changes back!
+
+git clone git@github.com:amontefusco/sdr-widget.git
+
+Follow above instructions for local branches, merges etc.
+
+After adding creating file.txt
+
+git add file.txt
+
+After doing your edits:
+
+git commit -a -m 'Message: what did you change?'
+
+If you're really sure your changes belong in the remote github repository:
+
+git push
+
+
 
 = git Documentation =
 
