@@ -107,9 +107,13 @@ Go to www.github.com -> Login -> Account Settings (top right)
   -> SSH Public Keys -> Add another... -> Paste in id_rsa.pub
 
 git config --global user.name "Borge Strand-Bergesen"
+
 git config --global user.email "your@mail.address.com"
+
 git config --global user.password "yourpassword"
+
 git config --global github.user "yourusername"
+
 git config --global github.password "yourpassword"
 
 Not sure if this step is needed:
