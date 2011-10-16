@@ -1,0 +1,51 @@
+#How to load new firmware onto a board
+
+= Introduction =
+
+This text assumes you're on a Windows system.
+
+Make sure Atmel Flip is up and running on your system. You will need the batchisp.exe program from Flip's bin folder.
+
+= 1 - Obtain an .elf file =
+
+You may have obtained or downloaded an .elf file. That saves you the git pull and compilation run.
+
+If you need to compile code the best option is to use Cygwin. There, make-widget-win7 or make-widget-win will do the trick. If you use an Atmel tool, make sure it generates .elf. 
+
+You may have to edit the scripts based on your tools installation. make-widget-win7 on my Win7-64 system looks like this:
+{{{
+#!/bin/sh
+##
+## this makes the widget if the AVR32BIN environment variable
+## is pointing to the directory containing avr32-gcc
+##
+PATH=${AVR32BIN:="/cygdrive/c/Program Files (x86)/Atmel/AVR32Studio_2.7/plugins/com.atmel.avr.toolchains.win32.x86_3.1.0.201012011657/os/win32/x86/bin"}:$PATH
+export PATH
+cd Release && make all
+}}}
+
+= 2 - Prepare the board =
+
+To boot into the bootloader do like this:
+* Press and hold the Prog button
+* Press and release the Reset button
+* Rlease the Prog button
+
+= 3 - Run batchisp.exe = 
+
+On my system compiled code is always on the e: drive. Flip is installed in C:\Program Files (x86)\Atmel\Flip 3.4.2\bin In that folder I have added prog.bat. You can make your own by copying this code:
+{{{
+batchisp -device at32uc3a3256 -hardware usb -operation erase f memory flash blankcheck loadbuffer %1 program verify start reset 0
+}}}
+So with the Widget running the bootloader, programming looks like this: 
+{{{
+C:\Program Files (x86)\Atmel\Flip 3.4.2\bin>prog e:widget.elf
+}}}
+
+= 4 - Reboot = 
+
+This will happen automatically after running prog.bat
+
+= 5 - Something failed = 
+
+You may need to locate an Atmel JTAG ISP mkII kit to debug and reload the bootloader.....
