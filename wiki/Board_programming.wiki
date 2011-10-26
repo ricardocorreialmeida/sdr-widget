@@ -4,7 +4,7 @@
 
 This text assumes you're on a Windows system.
 
-Make sure Atmel Flip is up and running on your system. You will need the batchisp.exe program from Flip's bin folder. See the wiky entry on Win7_64_setup. (Why isn't this autolinking?)
+Make sure Atmel Flip is up and running on your system. You will need the batchisp.exe program from Flip's bin folder. See the wiki entry on Win7_64_setup. (Why isn't this autolinking?)
 
 = 1 - Obtain an .elf file =
 
