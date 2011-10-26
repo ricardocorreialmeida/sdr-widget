@@ -1,4 +1,4 @@
-#How to load new firmware onto a board
+#summary How to load new firmware onto a board
 
 = Introduction =
 
