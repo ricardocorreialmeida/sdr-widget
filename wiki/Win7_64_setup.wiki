@@ -10,6 +10,8 @@ This page is a work in progress. Please copy your Win7 hints here.
 First of all: Clean up old drivers! 
 Loftur recommends this link: http://www.tech-recipes.com/rx/504/how-to-uninstall-hidden-devices-drivers-and-services/
 
+You may also benefit from reading this page on automatic driver installation: http://www.addictivetips.com/windows-tips/how-to-disable-automatic-driver-installation-in-windows-vista/
+
 = Select Playback Device =
 
 It might seem totally mundane, but don't forget to right-click on the little bottom-right loudspeaker icon and actively select playback device. Frequently, the most recently added audio device takes over, but not always.
