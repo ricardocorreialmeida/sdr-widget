@@ -7,14 +7,14 @@ This is from Alex's mail on March 30.
 With great contributions from a various developers, including Roger,
 Andrea, Loftur etc., the Unified firmware is now working quite well,
 and I encourage all widget users to start flashing the Unified
-firmware instead of the earlier individual firmware versions.
+firmware instead of the earlier individuall firmware versions.
 
 The source code of the Unified firmware is in a git repository. See the [gitRepository git repository wiki page].
 
 There are two main branches that have active development:
 
   * master for sdr-widget
-  * audio-widget for audio-widget (also works for sdr-widget.  just additional features for audio-widget boards)
+  * audio-widget for audio-widget (also works for sdr-widget for playback only.  With additional features for audio-widget boards)
 
 Alex will upload .elf files built from the above two branches to the code page periodically.  The latest .elf files are called:
 
