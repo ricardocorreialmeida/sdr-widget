@@ -30,7 +30,7 @@ After you install the signed driver, unplug the board and plug it back in with t
 
 = Widget Control =
 
-Go to the Downloads section and get your copy of WidgetControl_setup.exe. In order to make it work after installation, you also need the SDRWDGT-USB-Driver-1.2.1.0 driver from http://home.ict.nl/~fredkrom/pe0fko/ca/X/ Install it manually by running hdwwiz from cmd, then point to the folder you unzip it to. You may or may not need a reboot. You will also need the AUDWDGT-USB-Driver-1.2.2.0 driver after running Widget Control.
+Go to the Downloads section and get your copy of WidgetControl_setup.exe. In order to make it work after installation, you also need the SDRWDGT-USB-Driver-1.2.1.0 driver. Install it manually by running hdwwiz from cmd, then point to the folder you unzip it to. You may or may not need a reboot. You will also need the AUDWDGT-USB-Driver-1.2.2.0 driver after running Widget Control. Drivers are included in file Drivers_from_Fred_20111223.zip in the Downloads section
 
 = Deep Memory =
 
