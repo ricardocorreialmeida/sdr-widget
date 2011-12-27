@@ -6,7 +6,7 @@ This text assumes you're on a Windows system.
 
 Make sure Atmel Flip is up and running on your system. You will need the batchisp.exe program from Flip's bin folder. See page [Win7_64_setup].
 
-The downloads section now includes a batch file kit for programming and testing. See readme.txt in http://code.google.com/p/sdr-widget/downloads/detail?name=Add_to_flip345_bin.zip&can=2&q=#makechanges
+The downloads section now includes a batch file kit for programming and testing. See readme.txt in [http://code.google.com/p/sdr-widget/downloads/detail?name=Add_to_flip345_bin.zip&can=2&q=#makechanges Add_to_flip345_bin.zip].
 
 = 1 - Obtain an .elf file =
 
