@@ -18,6 +18,8 @@ It might seem totally mundane, but don't forget to right-click on the little bot
 
 = Atmel Flip =
 
+The downloads section now includes a batch file kit for programming and testing. See readme.txt in [http://code.google.com/p/sdr-widget/downloads/detail?name=Add_to_flip345_bin.zip&can=2&q=#makechanges Add_to_flip345_bin.zip].
+
 Atmel Flip is found at http://www.atmel.com/dyn/products/tools_card.asp?tool_id=3886
 
 Go ahead and install it as usual. You must read and understand http://www.atmel.com/dyn/resources/prod_documents/doc7745.pdf But the USB driver must be replaced by a signed driver.
