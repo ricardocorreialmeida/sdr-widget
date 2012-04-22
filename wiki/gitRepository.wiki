@@ -8,7 +8,7 @@ Here is an updated text for this wiki entry. Old text not deleted, see below.
 
 Git is a version control system. It is very practial for distributed online projects like the SDR-Widget / Audio-Widget. But it IS a learning 
 curve which shouldn't be underestimated. So read up on tutorials to get a feeling for it. For me the one which gave me the sort of aha feeling
-I needed to trust git as a tool was this one: http://ftp.newartisans.com/pub/git.from.bottom.up.pdf
+I needed to trust git as a tool was this one: [http://ftp.newartisans.com/pub/git.from.bottom.up.pdf]
 
 The git repository is located at https://github.com/amontefusco/sdr-widget You can view branches and their files from there. 
 
@@ -30,7 +30,7 @@ If you need write acces, request priviledges from repository owner Andrea. He'll
 ssh-keygen -t rsa -C "your@mail.address.com"
 
 Make backups of id_rsa.pub and id_rsa. Personally, I keep my local copies on a memory stick which tours different computers. My user account
-on all those computers need those same id_rsa* files. Their default location is /home/username/.ssh That's where you want copies of your backup
+on all those computers need those same id_rsa files. Their default location is /home/username/.ssh That's where you want copies of your backup
 files to end up if you're using other computers. 
 
 Go to www.github.com -> Login -> Account Settings (top right center icon)
