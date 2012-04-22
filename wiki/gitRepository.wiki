@@ -27,9 +27,11 @@ Register with a user name and password at https://github.com/ Remember your cred
 
 If you need write acces, request priviledges from repository owner Andrea. He'll need to know your_github_username
 
+You'll need to make SSH keys with
+
 ssh-keygen -t rsa -C "your@mail.address.com"
 
-Make backups of id_rsa.pub and id_rsa. Personally, I keep my local copies on a memory stick which tours different computers. My user account
+Make backups of id_rsa.pub and id_rsa. Personally, I keep my local project files on a memory stick which tours different computers. My user account
 on all those computers need those same id_rsa files. Their default location is /home/username/.ssh That's where you want copies of your backup
 files to end up if you're using other computers. 
 
@@ -105,7 +107,7 @@ Edit, compile, test, be marry. To compile your code you will need Atmel's AVR32 
 Building the code takes a command like "make clean audio-widget". But to understand things, have a look at files "Makefile" and "make-widget" 
 at the project root directory. 
 
-At some point of time you may be happy with the changes and what to share them. To do that, first make sure your local-branch is up to date. 
+At some point of time you may be happy with the changes and want to share them. To do that, first make sure your local-branch is up to date. 
 
 git commit -am "Text describing your recent edits"
 
