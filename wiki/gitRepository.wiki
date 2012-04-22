@@ -89,7 +89,7 @@ Get recent updates from other users.
 
 git pull git@github.com:amontefusco/sdr-widget.git
 
-Make sure you're working on your local branch. 
+Make sure you're working on your local branch with:
 
 git checkout local-branch
 
