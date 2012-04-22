@@ -29,7 +29,7 @@ If you need write acces, request priviledges from repository owner Andrea. He'll
 
 You'll need to make SSH keys with
 
-ssh-keygen -t rsa -C "your@mail.address.com"
+*ssh-keygen -t rsa -C "your@mail.address.com"*
 
 Make backups of id_rsa.pub and id_rsa. Personally, I keep my local project files on a memory stick which tours different computers. My user account
 on all those computers need those same id_rsa files. Their default location is /home/username/.ssh That's where you want copies of your backup
@@ -39,19 +39,20 @@ Go to www.github.com -> Login -> Account Settings (top right center icon)
 
     -> SSH Keys -> Add SSH Key -> Paste in id_rsa.pub 
 
-git config --global user.name "Your Real Name"
+*git config --global user.name "Your Real Name"*
 
-git config --global user.email "your@mail.address.com"
+*git config --global user.email "your@mail.address.com"*
 
-git config --global user.password "yourpassword"
+*git config --global user.password "yourpassword"*
 
 Not sure if the one above is really needed....
 
-git config --global github.user "your_github_username"
+*git config --global github.user "your_github_username"*
 
-git config --global github.password "your_github_password"
+*git config --global github.password "your_github_password"*
 
-ssh -T git@github.com
+*ssh -T git@github.com*
+
 Are you sure .... -> yes
 Should produce 
 Hi your_github_username!....
@@ -61,7 +62,7 @@ That should be it....
 
 = CLONING =
 
-git clone git@github.com:amontefusco/sdr-widget.git
+*git clone git@github.com:amontefusco/sdr-widget.git*
 
 Will set up local copies of what is stored in the central repository. By now you should have a bit of a grasp about git's consept of branches. 
 If you don't, go back to the tutorials and reread them. 
@@ -69,17 +70,17 @@ If you don't, go back to the tutorials and reread them.
 It is important that your work is done in your own locally stored scratchbook / sandbox etc. That gives you the ability to change and discard 
 things without too large consequences. To get started, first check out the centrally stored branch you wish to use as a starting point:
 
-git checkout audio-widget-experimental
+*git checkout audio-widget-experimental*
 
 Then - and only then - establish your local branch. It is very important that the branch name you choose is NOT the name of a centrally stored
 branch. You reach those with git checkout. "git branch" is like "ls" or "dir". "git branch xxx" is something you don't do without really 
 wanting to establish the branch xxx. You establish the new local branch with:
 
-git branch local-branch
+*git branch local-branch*
 
-Start working on yor local branch:
+Start working on your local branch:
 
-git checkout local branch. 
+*git checkout local-branch* 
 
 You should now be set to start editing or browsing the code.
 
@@ -89,16 +90,16 @@ You should now be set to start editing or browsing the code.
 
 Get recent updates from other users. 
 
-git pull git@github.com:amontefusco/sdr-widget.git
+*git pull git@github.com:amontefusco/sdr-widget.git*
 
 Make sure you're working on your local branch with:
 
-git checkout local-branch
+*git checkout local-branch*
 
 Merge the currently checked-out (your local-branch) branch with the one specified below (audio-widget-experimental). In this 
 case the changes other users committed into the centralized branch audio-widget-experimental will be merged into your local-branch. 
 
-git merge audio-widget-experimental
+*git merge audio-widget-experimental*
 
 At this point in time you can open up your favourite editor. Make sure you've done all the checkout'ing first. Otherwise the editor might
 get confused about the files which changed on your file system. 
@@ -109,7 +110,7 @@ at the project root directory.
 
 At some point of time you may be happy with the changes and want to share them. To do that, first make sure your local-branch is up to date. 
 
-git commit -am "Text describing your recent edits"
+*git commit -am "Text describing your recent edits"*
 
 The 'a' in -am makes sure your changes are added. The 'm' part means the message follows. This is to prevent git from trying to open an editor
 to record the message. 
@@ -117,15 +118,15 @@ to record the message.
 Now, close your editors because you're about to change to a branch to be used to write back to the repository. In this branch files may look
 a bit different before your changes are merged into it.
 
-git checkout audio-widget-experimental
+*git checkout audio-widget-experimental*
 
 This is your local copy of the repository-stored branch. To put your recent edits into this local copy, do 
 
-git merge local-branch
+*git merge local-branch*
 
 Rembember, the specified branch is merged into the current branch. The last step remaining is to update the central repository with your changes. 
 
-git push git@github.com:amontefusco/sdr-widget.git
+*git push git@github.com:amontefusco/sdr-widget.git*
 
 If this went well, your changes are in the central repository. And other users can pull them from there. For good measure, go back to your 
 local-branch so that any changes you do will end up there. 
