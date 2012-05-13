@@ -82,7 +82,7 @@ scroll down to audio_output section and replace with following:
 		    type            "alsa" 
     	            name            "My ALSA Device" 
       	 	    device          "plughw:1,0"   
-                    auto_resample "no"
+                    auto_resample    "no"
 	          }
 }}}
 replace "1" from the above with your *card id*
