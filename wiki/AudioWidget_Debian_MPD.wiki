@@ -1,4 +1,4 @@
-#installing Audio Widget under Debian with MPD
+#summary install Audio Widget under Debian with MPD
 
 = Step 1: Check/upgrade kernel version =
 *on terminal run:
@@ -87,8 +87,6 @@ scroll down to audio_output section and replace with following:
 replace "1" from the above with your *card number*
 
 That's it !
-
-
 
 
 
