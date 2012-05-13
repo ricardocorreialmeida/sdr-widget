@@ -67,7 +67,7 @@ aplay -l
  			Subdevices: 1/1
   			Subdevice #0: subdevice #0
 }}}
-DG8SAQI2C  is the card you are looking for - in this case *card 1*
+DG8SAQI2C  is the card you are looking for - in this case *card number* is 1
 
 =Step 3: [http://mpd.wikia.com/wiki/Install Install MPD] and  [http://mpd.wikia.com/wiki/Configuration configure] =
 
@@ -87,4 +87,3 @@ scroll down to audio_output section and replace with following:
 replace "1" from the above with your *card number*
 
 That's it !
-
