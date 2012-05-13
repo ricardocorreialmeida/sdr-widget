@@ -52,7 +52,7 @@ apt-get install -t squeeze-backports linux-image-3.2.0-0.bpo.1-686-pae
 reboot
 }}}
 
-= [http://code.google.com/p/sdr-widget/downloads/detail?name=Programming%20widget%20firmware.txt&can=2&q=#makechanges Step 2: Reflash AW board]=
+= Step 2:  [http://code.google.com/p/sdr-widget/downloads/detail?name=Programming%20widget%20firmware.txt&can=2&q=#makechanges Reflash AW board]=
 
 * make sure the board is in UAC2 mode ( red led) and run:
 {{{
@@ -87,6 +87,4 @@ scroll down to audio_output section and replace with following:
 replace "1" from the above with your *card number*
 
 That's it !
-
-
 
