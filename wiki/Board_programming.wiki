@@ -12,7 +12,7 @@ The downloads section now includes a batch file kit for programming and testing.
 
 You may have obtained or downloaded an .elf file. That saves you the git pull and compilation run.
 
-If you need to compile code the best option is to use Cygwin. There, make-widget-win7 or make-widget-win will do the trick. If you use an Atmel tool, make sure it generates .elf. 
+If you need to compile code the best option is to use Cygwin. After downloading and changing to the audio-widget firmware branch (see page [git_repository]), do "make clean audio-widget". If you use an integrated editor and Atmel compile tool, make sure it generates .elf. 
 
 You may have to edit the scripts based on your tools installation. make-widget-win7 on my Win7-64 system looks like this:
 {{{
