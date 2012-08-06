@@ -90,7 +90,7 @@ You should now be set to start editing or browsing the code.
 
 Get recent updates from other users. 
 
-*git pull git@github.com:amontefusco/sdr-widget.git*
+*git pull*
 
 Make sure you're working on your local branch with:
 
@@ -126,7 +126,7 @@ This is your local copy of the repository-stored branch. To put your recent edit
 
 Rembember, the specified branch is merged into the current branch. The last step remaining is to update the central repository with your changes. 
 
-*git push git@github.com:amontefusco/sdr-widget.git*
+*git push*
 
 If this went well, your changes are in the central repository. And other users can pull them from there. For good measure, go back to your 
 local-branch so that any changes you do will end up there. 
