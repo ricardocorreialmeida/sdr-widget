@@ -10,7 +10,7 @@ Git is a version control system. It is very practial for distributed online proj
 curve which shouldn't be underestimated. So read up on tutorials to get a feeling for it. For me the one which gave me the sort of aha feeling
 I needed to trust git as a tool was this one: [http://ftp.newartisans.com/pub/git.from.bottom.up.pdf]
 
-The git repository is located at https://github.com/amontefusco/sdr-widget You can view branches and their files from there. 
+The git repository is located at https://github.com/borgestrand/sdr-widget You can view branches and their files from there. 
 
 
 = GIT SETUP =
@@ -62,7 +62,7 @@ That should be it....
 
 = CLONING =
 
-*git clone git@github.com:amontefusco/sdr-widget.git*
+*git clone git@github.com:borgestrand/sdr-widget.git*
 
 Will set up local copies of what is stored in the central repository. By now you should have a bit of a grasp about git's consept of branches. 
 If you don't, go back to the tutorials and reread them. 
