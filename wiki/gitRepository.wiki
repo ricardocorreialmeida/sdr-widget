@@ -25,7 +25,7 @@ In a shell the setup goes something like this:
 
 Register with a user name and password at https://github.com/ Remember your credentials as your_github_username and your_github_password
 
-If you need write acces, request priviledges from repository owner Andrea. He'll need to know your_github_username
+If you need write acces, request priviledges from repository owner Borge. He'll need to know your_github_username
 
 You'll need to make SSH keys with
 
